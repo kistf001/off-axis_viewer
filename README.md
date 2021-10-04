@@ -1,19 +1,34 @@
 # off-axis_viewer
 
 OPENGL
+
 https://learnopengl.com/PBR/Lighting
+
 https://stackoverflow.com/questions/12239876/fastest-way-of-converting-a-quad-to-a-triangle-strip
+
 https://medium.com/shader-coding-in-unity-from-a-to-z/understanding-mesh-anatomy-in-unity-2507cb1ae011
+
 https://www.geeks3d.com/20130905/exploring-glsl-normal-visualizer-with-geometry-shaders-shader-library/#vertex_normal_viz
+
 https://www.slideshare.net/dongminpark71/ndc19-pbr-143928930
+
 https://blog.naver.com/ateliersera/221106565825
+
 https://lifeisforu.tistory.com/366?category=567143
+
 https://www.shadertoy.com/view/4sSfzK
+
 https://thebookofshaders.com/03/?lan=kr
+
+
 https://blog.naver.com/ounols/221530656319
+
 https://blog.naver.com/edgerider/220517509315
+
 https://niklasjang.tistory.com/43
+
 https://stackoverflow.com/questions/11794277/glsl-shader-for-glossy-specular-reflections-on-an-cubemapped-surface
+
 https://www.geeks3d.com/hacklab/20180514/demo-wireframe-shader-opengl-3-2-and-opengl-es-3-1/
 
 
