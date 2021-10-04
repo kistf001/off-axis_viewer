@@ -1,0 +1,6 @@
+cd /home/pi/projector
+g++ `pkg-config --cflags opencv` `pkg-config --libs opencv` -pthread -g -o point point.cpp
+./point
+
+
+cd /home/pi/projector && g++ `pkg-config --cflags opencv` `pkg-config --libs opencv` -pthread -g -o point point.cpp && ./point
