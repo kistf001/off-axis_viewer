@@ -1,5 +1,10 @@
 # off-axis_viewer
 
+
+BLENDER
+https://docs.blender.org/api/dev/index.html  
+
+
 OPENGL  
 https://learnopengl.com/PBR/Lighting  
 https://stackoverflow.com/questions/12239876/fastest-way-of-converting-a-quad-to-a-triangle-strip  
