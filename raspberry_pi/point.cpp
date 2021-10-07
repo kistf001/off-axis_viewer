@@ -628,7 +628,7 @@ void thread_function_tcp_server(){
         else if(  (buf[0]=='B')  ==  (buf[1]=='I')  ==  (buf[2]=='N')  )
             image_copy = thresholded_image[0];
         
-        cv::imencode(".jpg", image_copy, buffer);
+        cv::imencode(".png", image_copy, buffer);
 
         /*-----데이터 전송-----*/
         write(clnt_sock, reinterpret_cast<char*>(buffer.data()), buffer.size());

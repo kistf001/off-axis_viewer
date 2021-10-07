@@ -243,6 +243,8 @@ def do_rotation():
         cam.process_keyboard("rBACKWARD")
 
 def window_resize(window, width, height):
+    global monitor_width, monitor_height
+    monitor_width, monitor_height = width, height
     glViewport(0, 0, width, height)
 
 def view_zeze():
@@ -382,7 +384,7 @@ def create_MARKER():
                 (-monitor_width      )/scale, (-monitor_height +  50)/scale, 0.0, 0.0, 1.0, 0.0,
                 (-monitor_width +  50)/scale, (-monitor_height +  50)/scale, 0.0, 0.0, 1.0, 0.0]
     vertices = numpy.array(vertices, dtype=numpy.float32)
-    glBindVertexArray(VAO[0])
+    glBindVertexArray(VAO[2])
     glBindBuffer(GL_ARRAY_BUFFER, glGenBuffers(1))
     glBufferData(GL_ARRAY_BUFFER, vertices.nbytes, vertices, GL_STATIC_DRAW)
     glEnableVertexAttribArray(0)
@@ -535,6 +537,13 @@ def main():
     glfw.make_context_current(window)
     # v-sync
     glfw.swap_interval(1)
+    #monitor_size = glfw.get_video_modes(glfw.get_primary_monitor())
+    #monitor_size = glfw.get_video_modes(glfw.get_primary_monitor())
+    #
+    #print(glfw.get_monitor_physical_size(glfw.get_primary_monitor()))
+    #for akfad in monitor_size:
+    print(glfw.get_window_size(window))
+
 
 
     ###################################################################
